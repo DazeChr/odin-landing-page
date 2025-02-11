@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 body{
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: 'Roboto',sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -115,6 +117,73 @@ img{
     border-radius: 10px;
 }
 
+/* Quote */
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote-content{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    width: 60%;
+}
+
+.quote p{
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 900;
+    width: 60%;
+    text-align: right;
+}
+
+/* Bottom */
+.bottom{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.bottom h2{
+    color: #F9FAF8;
+    font-size: 18px;
+    margin: 0;
+}
+
+.bottom-text{
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.bottom-btn{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    border: #F9FAF8 solid 3px;
+}
+
+/* Footer */
 .footer {
     display: flex;
     align-items: center;
